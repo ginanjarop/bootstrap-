@@ -1,4 +1,5 @@
 body {
+  padding-top: 70px;
   font-family: 'Segoe UI', sans-serif;
 }
 
@@ -28,13 +29,34 @@ body {
   object-fit: cover;
 }
 
-.square {
-    aspect-ratio: 1 / 1;
-    width: 100%;
+.main-color {
+  background-color: #1b5e20;
 }
 
-.square-img {
-    aspect-ratio: 1 / 1;
-    width: 100%;
-    position: relative;
+
+.service-section {
+  background-color: #f8f9fa;
+}
+
+.service-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.icon-service {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #8b0000;
+  color: #ffffff;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
