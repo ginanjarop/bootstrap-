@@ -1,10 +1,40 @@
-.banner{
-    height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(banner.webp);
-    background-size: cover;
-    background-position: center;
+body {
+  font-family: 'Segoe UI', sans-serif;
 }
+
+.banner {
+  height: 100vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url("https://images.unsplash.com/photo-1517686469429-8bdb88b9f907");
+  background-size: cover;
+  background-position: center;
+}
+
 .btn-red {
-  background: black;
+  background-color: #8b0000;
   color: white;
+}
+
+.btn-red:hover {
+  background-color: #5c0000;
+  color: white;
+}
+
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.square {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+}
+
+.square-img {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    position: relative;
 }
