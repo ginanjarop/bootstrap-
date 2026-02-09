@@ -21,9 +21,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Promo</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Kontak</a></li>
       </ul>
     </div>
@@ -31,7 +31,7 @@
 </nav>
 
 <!-- Banner -->
-<section class="banner d-flex align-items-center">
+<section id="home" class="banner d-flex align-items-center">
   <div class="container text-center text-white">
     <h1 class="display-4 fw-bold">Selamat Datang di Amor Bakery</h1>
     <p class="lead">Manisnya cinta dalam setiap gigitan</p>
@@ -49,49 +49,66 @@
   </div>
 </section>
 
+
 <!-- Promo Section -->
-<section class="container py-5">
-  <h2 class="text-center fw-bold mb-4">Menu Favorit</h2>
+<section id="menu" class="container py-5">
+  <h2 class="text-center fw-bold mb-4">Menu favorit</h2>
   <div class="row g-4 justify-content-center">
 
-    <div class="col-md-4">
+    <div class="col-md-3">
       <div class="card h-100 shadow">
         <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b" class="card-img-top square-img" alt="Donat">
         <div class="card-body">
           <h5 class="card-title">Donat Coklat</h5>
           <p class="card-text">Donat lembut dengan lelehan coklat premium.</p>
+           <h4 class="card-text text-warning">Rp, 13.000</h4>
           <a href="#" class="btn btn-red">Pesan</a>
         </div>
       </div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-3">
       <div class="card h-100 shadow">
         <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec" class="card-img-top square-img" alt="Pastry">
         <div class="card-body">
           <h5 class="card-title">Croissant Butter</h5>
           <p class="card-text">Pastry renyah dengan aroma mentega asli.</p>
+           <h4 class="card-text text-warning">Rp, 35.000</h4>
           <a href="#" class="btn btn-red">Pesan</a>
         </div>
       </div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-3">
       <div class="card h-100 shadow">
         <img src="https://th.bing.com/th/id/OIP.uCiVqqbGmfo3gZG_1WJmzAHaLH?w=128&h=193&c=7&r=0&o=7&pid=1.7&rm=3" class="card-img-top square-img" alt="Cake">
         <div class="card-body">
           <h5 class="card-title">Kue Tart Strawberry</h5>
           <p class="card-text">Manis, lembut, dan segar untuk hari spesial.</p>
+           <h4 class="card-text text-warning">Rp, 90.000</h4>
           <a href="#" class="btn btn-red">Pesan</a>
         </div>
       </div>
     </div>
 
+    <div class="col-md-3">
+      <div class="card h-100 shadow">
+        <img src="https://th.bing.com/th/id/OIP.uCiVqqbGmfo3gZG_1WJmzAHaLH?w=128&h=193&c=7&r=0&o=7&pid=1.7&rm=3" class="card-img-top square-img" alt="Cake">
+        <div class="card-body">
+          <h5 class="card-title">Roti Bakar</h5>
+          <p class="card-text">Cocok untuk dinikmati saat waktu luang, berisi 6 pcs</p>
+          <h4 class="card-text text-warning">Rp, 17.500</h4>
+          <a href="#" class="btn btn-red">Pesan</a>
+        </div>
+      </div>
+    </div>
+
+
   </div>
 </section>
 
-  <!-- Service Section -->
-<section class="service-section py-5">
+<!-- Service Section -->
+<section id="layanan" class="service-section py-5">
   <div class="container">
     <h2 class="text-center fw-bold mb-5">Layanan Kami</h2>
 
@@ -137,6 +154,27 @@
   </div>
 </section>
 
+<!-- SECTION KONTAK -->
+    <section id="kontak" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-1">
+                <h2 class="display-5 fw-bold text-brown mb-2">Hubungi Kami</h2>
+                <p class="text-muted">Temukan kami atau hubungi untuk informasi lebih lanjut.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <p><i class="fas fa-map-marker-alt text-brown me-2"></i> Jl. Raya pulorejo mojokerto</p>
+                    <p><i class="fas fa-phone text-brown me-2"></i>0822xxxxxx98/0822xxxxxx50</i></p>
+                    <p><i class="fas fa-envelope text-brown me-2"></i> info@amor.bakery</p>
+                    <p><i class="fas fa-clock text-brown me-2"></i> Buka Setiap Hari: 07.00 - 22.00 WIB</p>
+                    <div class="mt-4">
+                        <a href="#" class="btn btn-brown me-2"><i class="fab fa-instagram me-1"></i> Instagram</a>
+                        <a href="#" class="btn btn-brown"><i class="fab fa-facebook-f me-1"></i> Facebook</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 <!-- Footer -->
 <footer class="bg-dark text-white text-center py-3">
@@ -147,4 +185,3 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
